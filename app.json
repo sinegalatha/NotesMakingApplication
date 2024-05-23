@@ -11,6 +11,15 @@
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
+    "plugins": [
+      [
+      "@react-native-voice/voice",
+      {
+        "microphonePermission": "Allow Microphone",
+        "speechRecognitionPermission": "Allow Speech Recognition"
+      }
+    ]
+  ],
     "ios": {
       "supportsTablet": true
     },
